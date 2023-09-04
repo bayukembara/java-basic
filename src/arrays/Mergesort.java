@@ -10,9 +10,7 @@ public class Mergesort {
         for(int val : merged){
             System.out.println(val + " ");
         }
-
     }
-
     public static int[] mergeTwoSortedArray(int[] one, int[] two){
 
         int[] sorted =  new int[one.length + two.length];

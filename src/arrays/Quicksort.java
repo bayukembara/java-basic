@@ -3,7 +3,6 @@ package arrays;
 import java.util.Random;
 
 public class Quicksort {
-
     public static void main(String[] args) {
         Random acak = new Random();
         int[] numbers = new int[10];
