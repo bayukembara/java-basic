@@ -13,6 +13,10 @@ public class Operators {
 
         double n1 = 8.4,n2=4.2,result = 0.0;
 
+        result = n1 + n2;
+
+        System.out.println(result);
+
 
 
     }
