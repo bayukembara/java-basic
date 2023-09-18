@@ -1,0 +1,36 @@
+1. what is method?
+2. declaration and calling of methods
+3. method types
+4. method return types
+5. method overloading
+
+1. Method is set statement to perform operation, methods is also known as procedures or functions, the advantage is we can use it many times
+
+*ex this is the regular method
+int addNumber(int x, int y){
+
+int sum = 0;
+sum = x + y;
+return sum
+}
+in java we need to write functions/method like {type of data} {name of function/ method} ({parameters(int x),(int y)}) and for the last we need to write symbol {} and make the rule inside and if we use this functions or method basically we need to use keyword like (return) and what variables that give the return Value.
+
+2. Method Calling
+
+result = addNumber(10,20) // the variable result have a method addNumber with parameter 10,20
+
+3. Method Types
+
+method standard library methods
+and the other
+method user defined method
+
+System.out.println is a method from library of java it self and addNumber method is a user defined method
+All of method is return something
+return in java have 2, that is primitive, and non primitive
+primitive = char, byte, short, int, long, boolean, float, double
+Non-primitive - reference data type like (object of Class, String)
+
+4.Method Return is on the methodExample
+
+5. Method Overloading is when a class has two or more methods same name but different parameters.
