@@ -1,0 +1,87 @@
+----------------------------------------------------------------
+! Object & Class
+----------------------------------------------------------------
+Object is instance of a class
+
+object is a self-contained component which contain methods and properties , take memory and address but class didn't need memory and address
+
+object have 3 characteristics, state, behavior and identity
+
+Characteristics state is represented the data of an object
+Characteristics behavior is represented the action of an object, such as start, stop, etc.
+Characteristics identity is used internally by the JVM (java virtual machine) to identify each object uniquely so the value is not shown to external users
+----------------------------------------------------------------
+//* Syntax of Class
+----------------------------------------------------------------
+public class Car {
+    private String model;
+    private String color;
+    private int year;
+    public void start(){}
+}
+----------------------------------------------------------------
+//* The explanation
+----------------------------------------------------------------
+public is a Access Modifier
+car is a class name
+inside { Class Body }
+private String Model is Instance Variables
+publuc void start() is Instance Method
+
+----------------------------------------------------------------
+//* Creating an Object and syntax
+----------------------------------------------------------------
+Car myCar = new Car();
+
+//* The explanation
+
+Car in the first syntax is Class Name
+MyCar is Object Name
+new is creating object keyword
+Car() is Automatically Calls Constructor
+
+MyCar itself is reference in the memory that have the value of the car object
+
+----------------------------------------------------------------
+! ACCESS MODIFIERS
+----------------------------------------------------------------
+4 access modifier Default ,Public, Private, Protected
+
+Default not explicitly declared without any private so this can be access as long as in the same package
+Public is accessible from everywhere
+Private is accessible only declare the class it self, and the most restricted access modifier
+Protected is accessible only within the same package and in addition from all subclasses
+
+The level of access modifier
+
+less restricted access modifier is public and protected
+more restricted access modifier is default and private
+
+(read from the left, so if public is less so the level of the less public is greater than protected)
+
+----------------------------------------------------------------
+! Naming Convention
+----------------------------------------------------------------
+For the Class Name we should start with uppercase letter, and be a noun e.g. (String,Car,System,etc.)
+For the Method Name we should start with lowercase letter, and be a verb e.g. (start(),stop(),actionPerformed())
+For the Variable Name we should start with lowercase letter e.g. (firstName,year,color)
+
+----------------------------------------------------------------
+! Constructor
+----------------------------------------------------------------
+Constructor is being used when we want to use the class it self and take the variable from the other to the class it self
+
+----------------------------------------------------------------
+! Methods
+----------------------------------------------------------------
+Methods is function that we used to using the function it self and we don't need to declare variable again
+
+----------------------------------------------------------------
+! Package
+----------------------------------------------------------------
+Structure of package is package<top_package_name>.[sub_package_name]
+e.g. (package Vehicle.car;)
+
+//* Type of package
+Built in package(For example : java.io)
+User defined package(For example : vehicle.car)
