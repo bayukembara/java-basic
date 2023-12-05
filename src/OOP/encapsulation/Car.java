@@ -7,4 +7,12 @@ public class Car extends Vehicle{
         super(model, maxSpeed);
         this.isAutomatic = isAutomatic;
     }
+
+    public boolean isAutomatic() {
+        return isAutomatic;
+    }
+
+    public void setAutomatic(boolean automatic) {
+        isAutomatic = automatic;
+    }
 }
